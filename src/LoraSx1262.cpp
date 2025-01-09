@@ -183,7 +183,7 @@ void LoraSx1262::transmit(byte *data, int dataLen) {
   //Write the payload to the buffer
   //  Reminder: PayloadLength is defined in setPacketParams
   digitalWrite(SX1262_NSS,0); //Enable radio chip-select
-  spiBuff[0] = 0x0E,          //Opcode for WriteBuffer command
+  spiBuff[0] = 0x0E;          //Opcode for WriteBuffer command
   spiBuff[1] = 0x00;          //Dummy byte before writing payload
   SPI.transfer(spiBuff,2);    //Send header info
 
