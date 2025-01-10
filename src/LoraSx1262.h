@@ -29,7 +29,7 @@
 # | Radio Reset     | A0          | SX_NRESET  |
 # | Busy (optional) | D3          | BUSY       |
 # | Radio Interrupt | D5          | DIO1       |
-# | SPI SCK         | 13          | SCK        |
+# | SPI SCK         | D13         | SCK        |
 # | SPI MOSI        | D11         | MOSI       |
 # | SPI MISO        | D12         | MISO       |
 # | SPI CS          | D7          | NSS        |
